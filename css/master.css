@@ -20,6 +20,12 @@ body {
   /* set the text alignment here */
 }
 
+/* X > Y means:
+ *	element Y inside X */
+header > img {
+    width: 75%;
+}
+
 footer {
   margin-top: 2rem;
   margin-bottom: 2rem;
