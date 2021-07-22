@@ -2,19 +2,37 @@
 
 <!-- this is a comment for human! -->
 
+<!-- <html> can contain
+    1 x <head>
+    1 X <body>
+    ref: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html
+-->
 <html lang="en">
-  <header>
+
+  <!-- <head> contains title and extra info about page for robots -->
+  <head>
     <title>sha's Portal</title>
     <link rel="stylesheet" href="css/master.css" />
     <link rel="FaviconIcon" href="facvicon.ico" type="image/x-icon" />
     <link rel="shortcut" href="facvicon.ico" type="image/x-icon" />
     <meta name="name" content="Aakansha" />
     <meta name="robots" content="noindex, nofollow" />
-  </header>
+  </head>
 
+  <!-- <body> for everything user should see
+      i like to divde into:
+	- <header>
+	- <main>
+	- <footer>
+  -->
   <body>
+
+    <header>
     <img src="images/banner.jpg" width="75%" alt="banner" />
     <h1>sha's portal</h1>
+    </header>
+
+    <main>
     <h2>About Me</h2>
     <p>I am a student at SRM</p>
     <p>I am studying B.Tech Information Technology</p>
@@ -28,10 +46,12 @@
     <h2>Contact</h2>
 
     <p>Email:<a href="mailto:abcd">abcd</a></p>
-  </body>
+    </main>
 
   <footer>
     <hr />
     <code>Copyright (c) 2020 Aakansha </code>
   </footer>
+  </body>
+
 </html>
